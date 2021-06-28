@@ -18,9 +18,17 @@ What we are looking for is **Terraform code written to deploy an Auto Scaling Gr
 3. The website should **not** be publicly accessible unless going through the ELB.
 4. Code is documented in some way or another.
 
-Bonus Points for any of the following:
-## Bonus Points
+**Bonus Points** for any of the following:
 1. Include some form of CI/CD pipeline code. GitHub Actions, Jenkins, GitLab, AWS CodePipeline or any other tool is fine.
 2. Have the group of ASG's deliver said application via an ECS Cluster.
 3. Create and use variables so this can be used in multiple builds
 4. Create a method to add linting or verifying that the code meets [Terraform style conventions](https://www.terraform.io/docs/language/syntax/style.html)
+
+## Submission
+Please [email a patch](https://thoughtbot.com/blog/send-a-patch-to-someone-using-git-format-patch) of your changes to the email address we sent you this challenge from. This allows us to see how you utilize git but ensures your submission isn't visible to everyone else. Pull Requests and Forks show everyone else your work.
+> Note: you'll want to check out a new branch for your work to make correctly formatting the patch easier.
+> ```
+> git checkout -b my-branch
+> ## make your changes, committing alon the way
+> git format-patch master --stdout > your-name.patch
+> ```
