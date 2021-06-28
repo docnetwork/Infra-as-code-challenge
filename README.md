@@ -9,13 +9,18 @@ We aim to make sure that this challenge doesn't take too much of your personal t
 What we are looking for is **Terraform code written to deploy an Auto Scaling Group (ASG) of web servers that deliver a website on AWS from a load balancer**. This should include the following:
 1. VPC Configuration with subnets in multiple Availability Zones
 2. EC2 Configuration
-3. 
+3. ELB to manage traffic
+4. Serves the world's finest [Inspirational Quote Generator](https://github.com/rbannal86/InspirationalQuoteGenerator)
 
-Please create you own fork of this repo. That way your code stays private and we don't run the risk of other people using your work. For code submission, either send us a .zip file of your repo or send an invite to your private repo. This 
+## Requirements
+1. Runs on AWS Infrastructure
+2. The website is publicly accessible via the ELB.
+3. The website should **not** be publicly accessible unless going through the ELB.
+4. Code is documented in some way or another.
 
+Bonus Points for any of the following:
 ## Bonus Points
-1. Include some form of CI/CD pipeline code. GitHub Actions, Jenkins, GitLab, AWS CodePipeline or any other tool is fine..
+1. Include some form of CI/CD pipeline code. GitHub Actions, Jenkins, GitLab, AWS CodePipeline or any other tool is fine.
 2. Have the group of ASG's deliver said application via an ECS Cluster.
 3. Create and use variables so this can be used in multiple builds
 4. Create a method to add linting or verifying that the code meets [Terraform style conventions](https://www.terraform.io/docs/language/syntax/style.html)
-5. Documentation inside your code where applicable. 
