@@ -17,7 +17,7 @@ We love answering questions. Please send us your questions at the email address 
 Also we understand this is an *infrastructure* challenge, and we've tried to make the application easy to manage. It's containerized, so starting the app should be as simple as running the container. We're more than happy to help with roadblocks here. Additionally, if you need to modify the application itself in any way, feel free to fork it and do so!
 
 ## Requirements
-1. Runs on AWS Infrastructure
+1. Runs on AWS Infrastructure.
 2. The website is publicly accessible via the ELB.
 3. The website should **not** be publicly accessible unless going through the ELB.
 4. Code is documented in some way or another.
@@ -25,8 +25,8 @@ Also we understand this is an *infrastructure* challenge, and we've tried to mak
 **Bonus Points** (not required at all) for *any* of the following:
 * Include some form of CI/CD pipeline code. GitHub Actions, Jenkins, or any other tool is fine.
 * Have the group of ASG's deliver said application via an ECS Cluster.
-* Create and use variables so this can be used in multiple builds
-* Create a method to add linting or verifying that the code meets [Terraform style conventions](https://www.terraform.io/docs/language/syntax/style.html)
+* Create and use variables so this can be used in multiple builds.
+* Create a method to add linting or verifying that the code meets [Terraform style conventions](https://www.terraform.io/docs/language/syntax/style.html).
 
 ## Submission
 Please [email a patch](https://thoughtbot.com/blog/send-a-patch-to-someone-using-git-format-patch) of your changes to the email address we sent you this challenge from. This allows us to see how you utilize git but ensures your submission isn't visible to everyone else. Pull Requests and Forks show everyone else your work.
