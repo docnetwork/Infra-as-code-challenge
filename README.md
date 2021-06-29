@@ -2,7 +2,7 @@
 DocNetwork's DevOps Challenge
 
 ## Challenge Details
-The DevOps team at DocNetwork serve as the infrastructure engineers for the company. A good amount of familiarity with both AWS (or other cloud environments) is required for this position as well as familiarity with creating CI/CD pipelines.
+The DevOps team at DocNetwork serve as the infrastructure engineers for the company. Strong competency with both AWS (or other cloud environments) and creating CI/CD pipelines are required for this position.
 
 We don't want this challenge doesn't take too much of your personal time. We're all about MVP (**Minimum** Viable Product)! Give us the rubber bands and duct tape version of this project. We want to see how you approach the problem, not that you write the most perfect code in all the land.
 
