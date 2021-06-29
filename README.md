@@ -33,6 +33,6 @@ Please [email a patch](https://thoughtbot.com/blog/send-a-patch-to-someone-using
 > Note: you'll want to check out a new branch for your work to make correctly formatting the patch easier.
 > ```
 > git checkout -b my-branch
-> ## make your changes, committing alon the way
+> ## make your changes, committing along the way
 > git format-patch master --stdout > your-name.patch
 > ```
