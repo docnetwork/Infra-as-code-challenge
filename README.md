@@ -34,5 +34,5 @@ Please [email a patch](https://thoughtbot.com/blog/send-a-patch-to-someone-using
 > ```
 > git checkout -b my-branch
 > ## make your changes, committing along the way
-> git format-patch master --stdout > your-name.patch
+> git format-patch main --stdout > your-name.patch
 > ```
