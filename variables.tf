@@ -18,3 +18,13 @@ variable "short_region" {
     description = "AWS region code (short)"
 }
 
+variable "ip_range" {
+    type = string
+    description = "IP range for VPC"
+}
+
+variable "subnets" {
+    type = map(object({
+    subnet_range       = string
+    availability_zone  = string
+  }))
