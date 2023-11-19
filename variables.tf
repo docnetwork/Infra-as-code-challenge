@@ -10,6 +10,11 @@ variable "secret_key" {
 }
 
 # Common
+variable "environment" {
+  type        = string
+  description = "Environment, e.g., dev, stage, prod"
+}
+
 variable "region" {
   type        = string
   description = "AWS region"
@@ -30,6 +35,11 @@ variable "alt_availability_zone" {
   type        = string
   description = "AWS alternate availability zone"
   default     = "us-west-2b"
+}
+
+variable "app_name" {
+  type        = string
+  description = "Application name"
 }
 
 # Networking
