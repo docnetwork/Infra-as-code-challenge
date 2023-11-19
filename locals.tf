@@ -1,5 +1,5 @@
 locals {
-    tags = {
-        application = "IAC Test"
-    }
+  tags = {
+    application = "IAC Test"
+  }
 }

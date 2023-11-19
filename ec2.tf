@@ -1,3 +1,13 @@
+resource "aws_instance" "DocNetwork" {
+  ami               = data.aws_ami.my-ami.id
+  instance_type     = var.ec2_instance_type
+  availability_zone = var.availability_zone
+  monitoring        = true
+  subnet_id         = aws_subnet.us-west-2-subnet-main[0].id
+
+  tags = local.tags
+}
+
 # resource "aws_autoscaling_group" "" {
 #   availability_zones = [ ]
 #   capacity_rebalance = false
